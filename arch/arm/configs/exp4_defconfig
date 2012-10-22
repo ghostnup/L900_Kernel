@@ -46,7 +46,7 @@ CONFIG_HAVE_KERNEL_LZO=y
 CONFIG_KERNEL_LZMA=y
 # CONFIG_KERNEL_LZO is not set
 CONFIG_DEFAULT_HOSTNAME="(none)"
-# CONFIG_SWAP is not set
+CONFIG_SWAP=y
 CONFIG_SYSVIPC=y
 CONFIG_SYSVIPC_SYSCTL=y
 # CONFIG_POSIX_MQUEUE is not set
@@ -568,6 +568,11 @@ CONFIG_USB_CDFS_SUPPORT=y
 CONFIG_SAMSUNG_PRODUCT_SHIP=y
 # CONFIG_CORESIGHT_ETM is not set
 # CONFIG_CPU_FREQ_TETHERING is not set
+<<<<<<< HEAD:arch/arm/configs/exp4_defconfig
+=======
+CONFIG_RQ_STATS=y
+CONFIG_INTELLI_PLUG=y
+>>>>>>> ddb9c3d... drivers/media/video/samsung/mali/platform/pegasus-m400/mali_platform_dvfs.c:arch/arm/configs/saber_defconfig
 
 #
 # Processor Type
@@ -784,6 +789,7 @@ CONFIG_EARLYSUSPEND=y
 # CONFIG_NO_USER_SPACE_SCREEN_ACCESS_CONTROL is not set
 # CONFIG_CONSOLE_EARLYSUSPEND is not set
 CONFIG_FB_EARLYSUSPEND=y
+# CONFIG_HIBERNATION is not set
 CONFIG_PM_SLEEP=y
 CONFIG_PM_SLEEP_SMP=y
 CONFIG_PM_RUNTIME=y
