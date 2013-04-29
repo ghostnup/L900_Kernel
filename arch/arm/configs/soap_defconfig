@@ -1,10 +1,14 @@
 #
 # Automatically generated make config: don't edit
 <<<<<<< HEAD:arch/arm/configs/soap_defconfig
+<<<<<<< HEAD:arch/arm/configs/soap_defconfig
 # Linux/arm 3.0.64-SOAP_Kernel_01 Kernel Configuration
 =======
 # Linux/arm 3.0.74-SaberKernel_19 Kernel Configuration
 >>>>>>> 069263c... Saber Config:arch/arm/configs/saber_defconfig
+=======
+# Linux/arm 3.0.75-SaberKernel_21 Kernel Configuration
+>>>>>>> c009d1a... arch/arm/configs/saber_defconfig:arch/arm/configs/saber_defconfig
 #
 CONFIG_ARM=y
 CONFIG_HAVE_PWM=y
@@ -579,7 +583,11 @@ CONFIG_SAMSUNG_PRODUCT_SHIP=y
 # CONFIG_CPU_FREQ_TETHERING is not set
 CONFIG_RQ_STATS=y
 CONFIG_INTELLI_PLUG=y
+<<<<<<< HEAD:arch/arm/configs/soap_defconfig
 >>>>>>> 069263c... Saber Config:arch/arm/configs/saber_defconfig
+=======
+# CONFIG_ABB_CONTROL is not set
+>>>>>>> c009d1a... arch/arm/configs/saber_defconfig:arch/arm/configs/saber_defconfig
 
 #
 # Processor Type
