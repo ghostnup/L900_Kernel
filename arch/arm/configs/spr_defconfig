@@ -1,6 +1,6 @@
 #
 # Automatically generated make config: don't edit
-# Linux/arm 3.0.74-SaberKernel_Spr Kernel Configuration
+# Linux/arm 3.0.80-SaberKernel_25_Spr Kernel Configuration
 #
 CONFIG_ARM=y
 CONFIG_HAVE_PWM=y
@@ -570,7 +570,7 @@ CONFIG_SAMSUNG_PRODUCT_SHIP=y
 # CONFIG_CORESIGHT_ETM is not set
 CONFIG_CPU_FREQ_TETHERING=y
 CONFIG_RQ_STATS=y
-CONFIG_INTELLI_PLUG=y 
+CONFIG_INTELLI_PLUG=y
 
 #
 # Processor Type
